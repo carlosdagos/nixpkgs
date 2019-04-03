@@ -18813,6 +18813,8 @@ in
 
   sxhkd = callPackage ../applications/window-managers/sxhkd { };
 
+  mxhkd = callPackage ../applications/window-managers/mxhkd { };
+
   mpop = callPackage ../applications/networking/mpop {
     inherit (darwin.apple_sdk.frameworks) Security;
   };
